@@ -14,6 +14,7 @@
         devShells = {
           default = pkgs.mkShell {
             buildInputs = with pkgs; [
+              grpc-tools
               nest-cli
               nodejs_22
               pnpm
